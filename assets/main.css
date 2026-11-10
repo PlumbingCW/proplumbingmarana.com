@@ -265,7 +265,7 @@ main h2+p,main h3+p{margin-top:14px}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
 /* page-type hook classes and shared hooks */
-.pg-home,.pg-service,.pg-location,.pg-blog,.pg-hub,.pg-about,.pg-contact,.pg-privacy,.pg-terms,.pg-404{--page-type:1}
+.pg-home,.pg-service,.pg-location,.pg-neighborhood,.pg-blog,.pg-hub,.pg-about,.pg-contact,.pg-privacy,.pg-terms,.pg-404{--page-type:1}
 .faq{margin-top:44px}
 .blk-text p:last-child{margin-bottom:0}
 .tb-r{display:flex;align-items:center}
@@ -285,3 +285,8 @@ main h2+p,main h3+p{margin-top:14px}
 .van-band figure{margin:0;border-radius:22px;overflow:hidden;box-shadow:0 24px 60px rgba(21,23,38,.25);transform:translateY(0)}
 .van-img{display:block;width:100%;height:auto;aspect-ratio:16/8;object-fit:cover}
 @media(max-width:560px){.van-band figure{border-radius:14px}.van-img{aspect-ratio:4/3}}
+
+.hoodlist{list-style:none;margin:18px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.hoodlist li{margin:0}
+.hoodlist a{display:block;padding:14px 16px;border:1px solid var(--line,#d9e0ec);border-radius:12px;background:#fff;font-weight:600;text-decoration:none}
+.hoodlist a:hover,.hoodlist a:focus-visible{border-color:currentColor}
